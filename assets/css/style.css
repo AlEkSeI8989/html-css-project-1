@@ -1,0 +1,20 @@
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+  padding: 32px 0px;
+  font-size: 18px;
+}
+
+.menu__item {
+  color: #828282;
+}
+
+.menu__item:hover {
+  color: #070707;
+  cursor: pointer;
+}
