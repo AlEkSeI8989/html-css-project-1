@@ -1,5 +1,5 @@
 .container {
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
 }
 .menu {
@@ -18,3 +18,19 @@
   color: #070707;
   cursor: pointer;
 }
+.intro__title {
+  color: #070707;
+  font-size: 48px;
+}
+.zgn {
+  text-align:center ;
+}
+.lang {
+  transform: rotate(-90deg);
+  text-align: end;
+  position: absolute;
+}
+.spase {
+  display: block;
+  justify-content: space-between;
+  
