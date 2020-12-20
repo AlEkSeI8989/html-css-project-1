@@ -18,19 +18,118 @@
   color: #070707;
   cursor: pointer;
 }
-.intro__title {
-  color: #070707;
-  font-size: 48px;
-}
-.zgn {
-  text-align:center ;
-}
-.lang {
-  transform: rotate(-90deg);
-  text-align: end;
-  position: absolute;
-}
-.spase {
-  display: block;
+.intro {
+  display: flex;
   justify-content: space-between;
-  
+  max-width: 1050px;
+  margin: 0 auto;
+  color: #070707;
+  background: url("/assets/images/BSPP2266.png") center;
+}
+.one__titel {
+  padding: 40px;
+  font-size: 47px;
+  max-width: 123px;
+}
+.two__titel {
+  padding: 94px;
+  font-size: 18px;
+  max-width: 155px;
+}
+.three__titel {
+  padding: 69px;
+  font-size: 16px;
+  transform: rotate(-90deg);
+  color: #828282;
+  text-align: right;
+}
+.picture {
+  margin: 0 auto;
+  display: flex;
+}
+.three__titel :hover:active {
+  color: #070707;
+  cursor: pointer;
+}
+.intro__inner {
+  text-align: center;
+  color: #070707;
+  font-size: 34px;
+  padding: 224px;
+}
+.intro__item {
+  margin: 0 auto;
+  max-width: 485px;
+  font-size: 18px;
+  padding: 18px;
+}
+.skills {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 198px;
+  text-align: center;
+  font-size: 34px;
+}
+.skills__inner {
+  padding: 69px;
+  font-size: 18px;
+}
+.skills__applications {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+}
+.skills__item {
+  padding: 23px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  font-size: 14px;
+  color: #828282;
+}
+.star {
+}
+.portfolio {
+  margin: 0 auto;
+  display: flex;
+  padding: 47px;
+}
+.subtitle {
+  font-size: 18px;
+  color: #070707;
+  padding: 44px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reebock {
+  margin: 0 auto;
+  display: flex;
+  padding: 99px;
+}
+.contacts {
+  text-align: center;
+  font-size: 34px;
+  color: #070707;
+  padding: 210px;
+}
+.contacts__item {
+  text-align: center;
+  color: #070707;
+  font-size: 18px;
+  padding: 20px;
+}
+.message {
+  text-align: center;
+  font-size: 18;
+  padding: 42px;
+}
+figcaption {
+  width: 158px;
+  height: 38px;
+  background-color: #070707;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.message__item {
+}
